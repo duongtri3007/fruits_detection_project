@@ -26,10 +26,43 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+## 📁 Project Structure
+
+fruits_detection_project/
+│── data/
+|── sessions/
+|── test_images/
+|── test_results/
+|── args.py
+|── augmentations.py/
+│── data_preparation.py
+│── dataset.py
+|── gpu_test.py
+|── model.py
+|── utils.py
+|── trainer.py
+│── main.py
+|── test_model.py
+│── requirements.txt
+│── README.md
+
+## ▶️ Usage
+
+Run the application with:
+
+```bash
+python main.py
+```
+
 ## 🎥 Project Demo
 This video demonstrates how the AI model recognizes objects in images.
 
 https://github.com/user-attachments/assets/c40a700a-9b93-4911-ba22-d8a3f84a22aa
 
+## 📊 Results
+
+- Successfully detects multiple fruit categories.
+- Real-time prediction supported.
+- Built using Python and PyTorch.
 
 
