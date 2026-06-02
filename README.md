@@ -26,26 +26,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## 📁 Project Structure
-
-fruits_detection_project/
-│── data/
-|── sessions/
-|── test_images/
-|── test_results/
-|── args.py
-|── augmentations.py/
-│── data_preparation.py
-│── dataset.py
-|── gpu_test.py
-|── model.py
-|── utils.py
-|── trainer.py
-│── main.py
-|── test_model.py
-│── requirements.txt
-│── README.md
-
 ## ▶️ Usage
 
 Run the application with:
